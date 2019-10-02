@@ -104,6 +104,7 @@ Install the istio-init chart to bootstrap all the Istio’s CRDs:
 
 ```
 helm install istio/install/kubernetes/helm/istio-init --name istio-init --namespace istio-system --wait
+```
 
 Verify that all 23 Istio CRDs were committed to the Kubernetes api-server using the following command:
 
