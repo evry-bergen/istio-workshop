@@ -3,7 +3,7 @@
 Kubernetes Istio Workshop
 
 * Istio
-* Prometheues
+* Prometheus
 * Jaeger
 * Kiali
 
@@ -139,6 +139,13 @@ Install Istio Gateways in order to access telemetry services remotely:
 ```
 kubectl apply -f gateways
 ```
+
+You should now be able to access the Telemetry components:
+
+* Kiali http://`$ISTIO_IP`:15029
+* Prometheus http://`$ISTIO_IP`:15030
+* Grafana http://`$ISTIO_IP`:15031
+* Tracing http://`$ISTIO_IP`:15032
 
 ## Bookinfo Application
 
