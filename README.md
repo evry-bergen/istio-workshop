@@ -1,11 +1,11 @@
-# istio-workshop
+# Istio Workshop
 
 Kubernetes Istio Workshop
 
-* Istio
-* Prometheus
-* Jaeger
-* Kiali
+* [Istio](https://istio.io/)
+* [Prometheus](https://prometheus.io/)
+* [Jaeger](https://www.jaegertracing.io/)
+* [Kiali](https://kiali.io/)
 
 ## Prerequisites
 
