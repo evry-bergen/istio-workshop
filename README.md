@@ -85,9 +85,7 @@ This will allow Helm and Tiller to manage the lifecycle of Istio.
 Before you continue, make sure you have cloned this repository locally:
 
 ```
-git clone https://github.com/evry-bergen/istio-workshop.git
-cd istio-workshop
-git submodule update --init
+git clone --recurse-submodules https://github.com/evry-bergen/istio-workshop.git
 ```
 
 Make sure you have a service account with the cluster-admin role defined for Tiller. If not already defined, create one using following command:
