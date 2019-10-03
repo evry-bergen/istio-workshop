@@ -90,6 +90,7 @@ Get the kubectl config for the AKS cluster
 > kubectl config
 
 ```
+mkdir -p ~/.kube
 az aks get-credentials --resource-group istio-workshop -a --name istio-cluster --file - > ~/.kube/config
 ```
 
