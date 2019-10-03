@@ -19,10 +19,31 @@ Kubernetes Istio Workshop
 > and may not work directly in CMD nor PowerShell. We recommend using the Azure
 > Cloud Shell.
 
-Make sure you have the latest `az` installed
+If you have access to MSDN you need to activate your personal Azure Suscription
+by logging in with your corporate account to https://my.visualstudio.com.
+
+Make sure you have the Azure `az` command line tool installed
 
 ```
 az --version
+```
+
+Log in to Azure by running the following command:
+
+```
+az login
+```
+
+Now, find the correct Azure subscription by running the following command:
+
+```
+az account list -o table
+```
+
+Select the default subscription you want to use for this workshop:
+
+```
+az account set -s <subscription-id>
 ```
 
 Create a new resource group
